@@ -1,0 +1,53 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+
+}
+
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+
+
+}
+
+ 
+/* small mobile :320px. */
+@media (max-width: 768px) {
+    .banner-text h1 {
+        font-size: 45px;
+        color: #fff;
+        margin-bottom: 30px;
+    }
+    .banner {
+        padding-top: 165px;
+    }
+ 
+}
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .container {
+        max-width: 650px;
+    }
+    .mean-container .mean-nav ul li a {
+        padding: 11px 12px;
+    }
+}
+
+@media (max-width: 479px) {
+    .bounce-effect{
+        display: none;
+    }
+    .button-store{
+        display: grid;
+    }
+}
+
