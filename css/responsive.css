@@ -49,5 +49,12 @@
     .button-store{
         display: grid;
     }
+    .sign-up-form{
+        width: 347px;
+    }
+
+        .tab .nav-tabs li{ width: 100%; }
+        .tab .nav-tabs li a{ text-align: center; }
+
 }
 
