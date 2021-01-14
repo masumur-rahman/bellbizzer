@@ -130,6 +130,15 @@ $('.portfolio-menu button').on('click', function(event) {
 	$(this).addClass('active');
 	event.preventDefault();
 });
+	$('.tab-img-2').css('display','none');
+	$('.img-tab-1').on('click',function (event) {
+		$('.tab-img-1').css('display','block');
+		$('.tab-img-2').css('display','none');
+	});
+	$('.img-tab-2').on('click',function (event) {
+		$('.tab-img-1').css('display','none');
+		$('.tab-img-2').css('display','block');
+	});
 // Brand Logo Sliding
 
 	$('.brand-logo-slider').slick({
