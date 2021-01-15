@@ -201,6 +201,9 @@ label {
 	color: #ff6f59;
 	margin-bottom: 35px;
 }
+#ext-service{
+	padding-bottom: 60px;
+}
 .serviceBox .title{
 	display: block;
 	font-size: 16px;
