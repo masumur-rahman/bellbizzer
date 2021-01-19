@@ -435,9 +435,10 @@ label {
 }
 .sign-up-form img{
 	position: absolute;
-	right: 123px;
+	right: 130px;
 	width: 29px;
-	top: 25px;}
+	top: 25px;
+}
 .sign-up-form .form-control {
     border: none;
     margin-right: 10px;
