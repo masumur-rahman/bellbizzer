@@ -470,7 +470,16 @@ label {
 	height:100%;
 	opacity:0.9;
 }
-
+.tab-img-1{
+	display: block;
+	margin: auto;
+	width: 281px;
+}
+.tab-img-2{
+	display: block;
+	margin: auto;
+	width: 281px;
+}
 /* Banner text */
 .banner-text {
 	text-align:left;
@@ -892,9 +901,9 @@ section.parallax {
 .img-content-one{
     text-align: left;
 }
-.img-content-one img{
-    width: 90%;
-}
+/*.img-content-one img{*/
+    /*width: 90%;*/
+/*}*/
 
 .text-content-one h2{
     font-size: 25px;

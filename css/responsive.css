@@ -55,6 +55,12 @@
 
         .tab .nav-tabs li{ width: 100%; }
         .tab .nav-tabs li a{ text-align: center; }
+        .banner{
+            height: auto;
+        }
+    .img-content-two img {
+        padding-top: 30px;
+    }
 
 }
 
