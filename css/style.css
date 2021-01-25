@@ -202,7 +202,7 @@ label {
 	margin-bottom: 35px;
 }
 #ext-service{
-	padding-bottom: 60px;
+	padding: 60px;
 }
 .serviceBox .title{
 	display: block;
@@ -697,7 +697,7 @@ label {
 }
 /*----- app features -------*/
 #app-features{
-	padding: 50px 0px 100px 0px;
+	padding: 100px 0px 100px 0px;
 }
 .app-feature-content h2{
 	font-size: 34px;
@@ -742,7 +742,7 @@ label {
 	font-weight: 400;
 }
 .features-thumb img{
-	width: 100%;
+	width: 245px;
 }
 
 /*--------- Video Bg ---------*/
@@ -804,7 +804,7 @@ section.parallax {
 }
 
 .ptb-100 {
-	padding: 100px 0;
+	padding: 100px 0 20px;
 }
 .gradient-overlay:before {
 	position: absolute;
@@ -857,8 +857,8 @@ section.parallax {
 }
 .service-single .icon {
 	display: inline-block;
-	width: 80px;
-	height: 80px;
+	/*width: 80px;*/
+	/*height: 80px;*/
 	font-size: 40px;
 	line-height: 80px;
 	color: #fff;
@@ -1146,7 +1146,7 @@ section.parallax .counter h5, section.parallax .counter p {
 
 /*------------ screenshots area-----*/
 #screenshots{
-	padding: 100px 0px 100px 0px;
+	padding: 60px 0px 60px 0px;
 }
 .screenshot-slider .owl-item img {
 	border-radius: 2px;
@@ -1290,7 +1290,7 @@ section.parallax .counter h5, section.parallax .counter p {
 License Terms
 /*------------contact area----------*/
 .contact-page{
-	padding: 100px 0;
+	padding: 100px 0  !important;
 }
 #contact{
 	padding-bottom: 100px;
@@ -1586,4 +1586,3 @@ input:focus, textarea:focus, input.notice, textarea.notice {
 .form-horizontal .form-options li a i{ font-size: 12px; }
 .form-horizontal .form-options li:last-child a{ margin: 0; }
 .form-horizontal .form-options li a:hover{ text-shadow: 0 0 5px rgba(0,0,0,0.9); }
-License Terms
