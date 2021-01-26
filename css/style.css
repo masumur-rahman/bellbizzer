@@ -1598,3 +1598,43 @@ input:focus, textarea:focus, input.notice, textarea.notice {
 .form-horizontal .form-options li a i{ font-size: 12px; }
 .form-horizontal .form-options li:last-child a{ margin: 0; }
 .form-horizontal .form-options li a:hover{ text-shadow: 0 0 5px rgba(0,0,0,0.9); }
+
+/*----------Newsletter section---------*/
+.bg-img
+{
+    padding: 35px 0;
+    /*background: #7e8890;*/
+    background: linear-gradient(355deg, #c955ecba 0%, #951bb9 100%);
+}
+.bg-img h4
+{
+    color:#e6e6e6;
+}
+.form-subscribe
+{
+    max-width:600px;
+    margin:0 auto
+}
+.form-subscribe .form-control
+{
+    background-color:hsla(0,0%,100%,.8);
+    padding-left:24px;
+    padding-right:24px;
+    letter-spacing:1px;
+    border:none;
+    border-top-left-radius:36px;
+    border-bottom-left-radius:36px
+}
+.form-subscribe .form-control.focus,.form-subscribe .form-control:focus
+{
+    z-index:2;
+    background-color:hsla(0,0%,100%,.8)
+}
+.form-subscribe .btn
+{
+    border-top-right-radius:36px;
+    border-bottom-right-radius:36px;
+    background:#620088 ;
+    border-color:#620088 ;
+    height:52px;
+}
