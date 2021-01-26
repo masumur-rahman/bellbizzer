@@ -697,7 +697,7 @@ label {
 }
 /*----- app features -------*/
 #app-features{
-	padding: 100px 0px 100px 0px;
+	padding: 100px 0px 40px 0px;
 }
 .app-feature-content h2{
 	font-size: 34px;
@@ -854,6 +854,7 @@ section.parallax {
 	border-radius: 6px;
 	transition: all 0.3s;
 	transform: translateY(0);
+    height: 360px;
 }
 .service-single .icon {
 	display: inline-block;
@@ -1152,7 +1153,7 @@ section.parallax .counter h5, section.parallax .counter p {
 
 /*------------ screenshots area-----*/
 #screenshots{
-	padding: 60px 0px 60px 0px;
+	padding: 0px 0px 60px 0px;
 }
 .screenshot-slider .owl-item img {
 	border-radius: 2px;
